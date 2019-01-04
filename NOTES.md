@@ -34,10 +34,10 @@ CMake Error at /usr/share/llvm-3.8/cmake/LLVMConfig.cmake:181 (include):
 It's an old but not fixed bug ([[LLVM.Bugs]: Bug 23352 - LLVM CMake files broken for LLVM >= 3.5 Ubuntu packages.](https://bugs.llvm.org/show_bug.cgi?id=23352)) in this version.
 
 **Fix**:
-There are 2 files:
+There are 2 (modified) files (next to this one):
 - *LLVMConfig.cmake*
 - *LLVMExports-relwithdebinfo.cmake*
 
-that need to be copied in *llvm*'s install directory (***/usr/share/llvm-3.8/cmake***). ***sudo*** is required.
+They need to be copied in *llvm*'s cmake files installation directory (***/usr/share/llvm-3.8/cmake***). ***sudo* is required**.
 
 Don't forget to **backup the original files**!
