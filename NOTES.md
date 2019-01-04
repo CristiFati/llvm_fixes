@@ -15,7 +15,7 @@ llvm-dev/xenial-updates,now 1:3.8-33ubuntu3.1 amd64 [installed]
 ```
 **Issue**:
 
-Simple usage attempt (`find_package(LLVM 3.8.0 REQUIRED CONFIG)`) fails:
+Simple usage (e.g. from *CMakeLists.txt*) attempt (`find_package(LLVM 3.8.0 REQUIRED CONFIG)`) fails:
 ```
 CMake Error at /usr/share/llvm-3.8/cmake/LLVMConfig.cmake:178 (include):
   include could not find load file:
@@ -38,5 +38,5 @@ There are 2 files:
 - *LLVMConfig.cmake*
 - *LLVMExports-relwithdebinfo.cmake*
 
-that need to be copied in *llvm*'s install directory (*/usr/share/llvm-3.8/cmake*). ***sudo*** is required.
+that need to be copied in *llvm*'s install directory (***/usr/share/llvm-3.8/cmake***). ***sudo*** is required.
 Don't forget to **backup the original files**!
