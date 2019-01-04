@@ -1,5 +1,8 @@
+**!!! Not to be merged to master !!!**
 
-Created for [[SO]: Error when using CMake with LLVM - (@CristiFati's answer)]https://stackoverflow.com/questions/38171543/error-when-using-cmake-with-llvm/54033716#54033716)
+**Note** that this is only a workaround!
+
+Created for [[SO]: Error when using CMake with LLVM - (@CristiFati's answer)](https://stackoverflow.com/questions/38171543/error-when-using-cmake-with-llvm/54033716#54033716)
 
 *llvm* version 3.8.0
 
