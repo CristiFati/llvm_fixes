@@ -31,7 +31,8 @@ CMake Error at /usr/share/llvm-3.8/cmake/LLVMConfig.cmake:181 (include):
     /usr/share/llvm/cmake/LLVM-Config.cmake
 ```
 
-It's an old but not fixed bug ([[LLVM.Bugs]: Bug 23352 - LLVM CMake files broken for LLVM >= 3.5 Ubuntu packages.](https://bugs.llvm.org/show_bug.cgi?id=23352)) in this version.
+It's an old but not fixed bug ([[LLVM.Bugs]: Bug 23352 - LLVM CMake files broken for LLVM >= 3.5 Ubuntu packages.](https://bugs.llvm.org/show_bug.cgi?id=23352), [[LaunchPad.Bugs]: Ubuntu
+llvm package - llvm cmake files incorrectly generated](https://bugs.launchpad.net/ubuntu/+source/llvm/+bug/1387011)) in this version.
 
 **Fix**:
 There are 2 (modified) files (next to this one):
