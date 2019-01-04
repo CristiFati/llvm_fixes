@@ -38,6 +38,6 @@ There are 2 (modified) files (next to this one):
 - *LLVMConfig.cmake*
 - *LLVMExports-relwithdebinfo.cmake*
 
-They need to be copied in *llvm*'s cmake files installation directory (***/usr/share/llvm-3.8/cmake***). ***sudo* is required**.
+They need to be copied in *llvm*'s cmake files installation directory (**_/usr/share/llvm-3.8/cmake_**). ***sudo* is required**!
 
 Don't forget to **backup the original files**!
